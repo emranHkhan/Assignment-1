@@ -1,0 +1,172 @@
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    height: 50px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color:#6F737F;
+}
+
+section {
+    height: 600px;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    height: 5px;
+    width: 25%;
+    background-image:linear-gradient(90deg,limegreen,green);
+    border: none;
+    border-radius: 5px;
+}
+
+.styled {
+    color: salmon;
+}
+
+.nav-links {
+    width: 30%;
+    float: right;
+    padding: 2% 8% 4%;
+
+}
+
+.nav-links a {
+    margin-right: 35px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.col {
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    
+}
+
+.col-mod {
+    margin-top: 80px;
+}
+
+.third-sec {
+    clear: both;
+    padding: 100px;
+    background-color: #F8F9FC;
+    text-align: center;
+}
+
+
+.btn {
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 20px 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(salmon,tomato);
+}
+
+.card {
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 2px 20px grey;
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.card-col {
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+
+.image-col {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.image-col img {
+    margin-right: 50px;
+    display: inline-block;
+    max-width: 50%;
+    
+} 
+
+
+
+.my-section {
+    text-align: center;
+    height: 400px;
+    background-color:rgb(112, 175, 133, 0.5);
+    color: white;
+    padding: 4%;
+}
+
+.work {
+    width: 50%;
+    position: relative;
+    margin: 100px auto;
+    color: white;
+}
+
+.work img {
+    width: 100%;
+    height: 40%;
+    
+}
+
+.work h1 {
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 58px;
+}
+
+.work a {
+    position: absolute;
+    right: 52px;
+    top: 52px;
+    
+}
+
+footer {
+    height: 400px;
+    text-align: center;
+}
+
+.footer-content {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footer-content img {
+    width: 4%;
+    margin-right: 15px;
+}
